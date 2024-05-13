@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100vh;
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    padding: 50px;
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 12%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .icon {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-image: url(assets/avatar-jessica.jpeg);
+    background-size: contain;
+    margin-bottom: 40px;
+}
+
+.container .userDetails .name {
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    letter-spacing: 1.5px;
+    user-select: none;
+}
+
+.container .userDetails .location {
+    color:  hsl(75, 94%, 57%);
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 30px;
+    text-align: center;
+    user-select: none;
+}
+
+.container .job-profile {
+    color: hsl(0, 1%, 68%);
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    user-select: none;
+}
+
+.links-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.links-container a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 300px;
+    height: 50px;
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+.links-container a:hover {
+    background-color: rgb(60, 60, 60);
+}
